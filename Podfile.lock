@@ -1,0 +1,29 @@
+PODS:
+  - MMDrawerController (0.5.5):
+    - MMDrawerController/Core
+    - MMDrawerController/MMDrawerBarButtonItem
+    - MMDrawerController/MMDrawerVisualStates
+    - MMDrawerController/Subclass
+  - MMDrawerController-Storyboard (0.0.1):
+    - MMDrawerController
+  - MMDrawerController/Core (0.5.5)
+  - MMDrawerController/MMDrawerBarButtonItem (0.5.5):
+    - MMDrawerController/Core
+  - MMDrawerController/MMDrawerVisualStates (0.5.5):
+    - MMDrawerController/Core
+  - MMDrawerController/Subclass (0.5.5):
+    - MMDrawerController/Core
+
+DEPENDENCIES:
+  - MMDrawerController (~> 0.5.3)
+  - MMDrawerController-Storyboard (from `https://raw.github.com/TomSwift/MMDrawerController-Storyboard/1.0.0/MMDrawerController-Storyboard.podspec`)
+
+EXTERNAL SOURCES:
+  MMDrawerController-Storyboard:
+    :podspec: https://raw.github.com/TomSwift/MMDrawerController-Storyboard/1.0.0/MMDrawerController-Storyboard.podspec
+
+SPEC CHECKSUMS:
+  MMDrawerController: fb6a17a3e2d1cb4f5f4a411915703b3569cdb227
+  MMDrawerController-Storyboard: d8017478906972ed4d65cf4f555074e58316fbc6
+
+COCOAPODS: 0.32.1

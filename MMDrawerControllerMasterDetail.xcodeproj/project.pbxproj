@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7EE8D4DBB76B43FDB327FD04 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 25B0C412A9B64859A5120331 /* libPods.a */; };
 		BF579CE71924C42C006CF143 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF579CE61924C42C006CF143 /* Foundation.framework */; };
 		BF579CE91924C42C006CF143 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF579CE81924C42C006CF143 /* CoreGraphics.framework */; };
 		BF579CEB1924C42C006CF143 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF579CEA1924C42C006CF143 /* UIKit.framework */; };
@@ -21,6 +22,9 @@
 		BF579D081924C42C006CF143 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF579CEA1924C42C006CF143 /* UIKit.framework */; };
 		BF579D101924C42D006CF143 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BF579D0E1924C42D006CF143 /* InfoPlist.strings */; };
 		BF579D121924C42D006CF143 /* MMDrawerControllerMasterDetailTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BF579D111924C42D006CF143 /* MMDrawerControllerMasterDetailTests.m */; };
+		BF579D1D1924C827006CF143 /* LeftSlideTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF579D1C1924C827006CF143 /* LeftSlideTableViewController.m */; };
+		BF579D201924CD32006CF143 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF579D1F1924CD32006CF143 /* HomeViewController.m */; };
+		BF579D291925147B006CF143 /* PageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF579D281925147A006CF143 /* PageViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		25B0C412A9B64859A5120331 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A69292BC4B04B53AE056653 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 		BF579CE31924C42C006CF143 /* MMDrawerControllerMasterDetail.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MMDrawerControllerMasterDetail.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF579CE61924C42C006CF143 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		BF579CE81924C42C006CF143 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +59,12 @@
 		BF579D0D1924C42D006CF143 /* MMDrawerControllerMasterDetailTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MMDrawerControllerMasterDetailTests-Info.plist"; sourceTree = "<group>"; };
 		BF579D0F1924C42D006CF143 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BF579D111924C42D006CF143 /* MMDrawerControllerMasterDetailTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMDrawerControllerMasterDetailTests.m; sourceTree = "<group>"; };
+		BF579D1B1924C827006CF143 /* LeftSlideTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftSlideTableViewController.h; sourceTree = "<group>"; };
+		BF579D1C1924C827006CF143 /* LeftSlideTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftSlideTableViewController.m; sourceTree = "<group>"; };
+		BF579D1E1924CD32006CF143 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		BF579D1F1924CD32006CF143 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		BF579D271925147A006CF143 /* PageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageViewController.h; sourceTree = "<group>"; };
+		BF579D281925147A006CF143 /* PageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +75,7 @@
 				BF579CE91924C42C006CF143 /* CoreGraphics.framework in Frameworks */,
 				BF579CEB1924C42C006CF143 /* UIKit.framework in Frameworks */,
 				BF579CE71924C42C006CF143 /* Foundation.framework in Frameworks */,
+				7EE8D4DBB76B43FDB327FD04 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,6 +99,7 @@
 				BF579D0B1924C42C006CF143 /* MMDrawerControllerMasterDetailTests */,
 				BF579CE51924C42C006CF143 /* Frameworks */,
 				BF579CE41924C42C006CF143 /* Products */,
+				5A69292BC4B04B53AE056653 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +119,7 @@
 				BF579CE81924C42C006CF143 /* CoreGraphics.framework */,
 				BF579CEA1924C42C006CF143 /* UIKit.framework */,
 				BF579D051924C42C006CF143 /* XCTest.framework */,
+				25B0C412A9B64859A5120331 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -119,6 +134,12 @@
 				BF579CFC1924C42C006CF143 /* ViewController.m */,
 				BF579CFE1924C42C006CF143 /* Images.xcassets */,
 				BF579CED1924C42C006CF143 /* Supporting Files */,
+				BF579D1B1924C827006CF143 /* LeftSlideTableViewController.h */,
+				BF579D1C1924C827006CF143 /* LeftSlideTableViewController.m */,
+				BF579D1E1924CD32006CF143 /* HomeViewController.h */,
+				BF579D1F1924CD32006CF143 /* HomeViewController.m */,
+				BF579D271925147A006CF143 /* PageViewController.h */,
+				BF579D281925147A006CF143 /* PageViewController.m */,
 			);
 			path = MMDrawerControllerMasterDetail;
 			sourceTree = "<group>";
@@ -159,9 +180,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BF579D151924C42D006CF143 /* Build configuration list for PBXNativeTarget "MMDrawerControllerMasterDetail" */;
 			buildPhases = (
+				79F65E440D8C4CCC8732EF08 /* Check Pods Manifest.lock */,
 				BF579CDF1924C42C006CF143 /* Sources */,
 				BF579CE01924C42C006CF143 /* Frameworks */,
 				BF579CE11924C42C006CF143 /* Resources */,
+				CA4947181F004573850F2A7F /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -244,14 +267,50 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		79F65E440D8C4CCC8732EF08 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CA4947181F004573850F2A7F /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BF579CDF1924C42C006CF143 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF579D1D1924C827006CF143 /* LeftSlideTableViewController.m in Sources */,
 				BF579CFD1924C42C006CF143 /* ViewController.m in Sources */,
 				BF579CF71924C42C006CF143 /* AppDelegate.m in Sources */,
+				BF579D201924CD32006CF143 /* HomeViewController.m in Sources */,
 				BF579CF31924C42C006CF143 /* main.m in Sources */,
+				BF579D291925147B006CF143 /* PageViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -373,6 +432,7 @@
 		};
 		BF579D161924C42D006CF143 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A69292BC4B04B53AE056653 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -386,6 +446,7 @@
 		};
 		BF579D171924C42D006CF143 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A69292BC4B04B53AE056653 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -456,6 +517,7 @@
 				BF579D171924C42D006CF143 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BF579D181924C42D006CF143 /* Build configuration list for PBXNativeTarget "MMDrawerControllerMasterDetailTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +526,7 @@
 				BF579D1A1924C42D006CF143 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
